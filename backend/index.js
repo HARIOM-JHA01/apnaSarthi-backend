@@ -13,7 +13,7 @@ app.get("/", (req, res)=>{
 
 
 async function main() {
-    await mongoose.connect("mongodb://127.0.0.1:27017/ApnaSarthi");
+    await mongoose.connect("mongodb+srv://apnasarthitech:gMDH7mcTvDfyAzpZ@apnasarthi.ayh0c.mongodb.net/");
   }
 
 
